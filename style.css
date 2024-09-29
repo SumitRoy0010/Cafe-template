@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.vs1 {
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.vs2 {
+  font-family: "Inconsolata", sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.vs2:hover {
+  background-color: grey;
+}
+
+h2 {
+  text-align: center;
+  font-size: 90px;
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+.vs4 {
+  background-image: url("Cafe1.jpg");
+  width: 100vw;
+}
+
+.vs5 {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  margin-right: 1050px;
+  margin-left: 10px;
+}
+
+.vs6 {
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.vs7 {
+  margin-top: 70px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4px;
+  margin-left: 240px;
+  margin-right: 240px;
+  font-size: 18px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.vs8 {
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+  margin-top: 50px;
+}
+
+.quote-section {
+  background-color: #f1f1f1;
+  border-left: 6px solid #ccc;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: block;
+  padding: 0.01em;
+}
+
+blockquote {
+  font-family: "Inconsolata", sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+  font-style: italic;
+  box-sizing: inherit;
+}
+
+.bs {
+  margin-top: 16px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+  line-height: 1.5;
+}
+
+.ert {
+  margin-top: 70px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4px;
+  margin-left: 280px;
+  margin-right: 280px;
+  font-size: 18px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.menu-container {
+  width: 94%;
+  max-width: 700px;
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.menu-section {
+  margin-top: 20px;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.menu-item h3 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.menu-item p {
+  font-size: 18px;
+  color: #666;
+}
+
+.menu-item .price {
+  float: right;
+  font-weight: bold;
+}
+
+.wo {
+  margin-top: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4px;
+  margin-left: 230px;
+  margin-right: 230px;
+  font-size: 18px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.qp {
+  margin-top: 80px;
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+  line-height: 1.5;
+}
+
+.vsh {
+  background-color: black;
+  color: white;
+  padding-right: 8px;
+  padding-left: 8px;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+  line-height: 1.5;
+}
+
+.pl {
+  cursor: auto;
+  height: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 2px solid #ccc;
+  width: 100%;
+  padding: 8px;
+  display: block;
+  border-bottom: 2px solid #ccc;
+  overflow: visible;
+  margin: 0;
+  font: inherit;
+}
+
+.pl:focus,
+.pl:active {
+  border-color: black; /* Ensures border remains the same */
+  outline: none; /* Removes the focus outline */
+}
+
+.bts {
+  background-color: black;
+  color: white;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  font: inherit;
+  margin: 0;
+}
